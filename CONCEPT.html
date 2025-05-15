@@ -14,19 +14,99 @@
 					<li><a href="DESIGN.html">Design</a></li>
 					<li><a href="CONCLUSION.html">Conclusion</a></li>
 				</ul></nav><!-- One --><section id="One" class="wrapper style3"><div class="inner">
-					<header class="align-center"><p>Eleifend vitae urna</p>
-						<h2>Generic Page Template</h2>
+					<header class="align-center"><p>CONCEPT</p>
+					
 					</header></div>
 			</section><!-- Two --><section id="two" class="wrapper style2"><div class="inner">
 					<div class="box">
 						<div class="content">
-							<header class="align-center"><p>maecenas sapien feugiat ex purus</p>
-								<h2>Lorem ipsum dolor</h2>
-							</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at dignissim augue, in iaculis neque. Etiam bibendum felis ac vulputate pellentesque. Cras non blandit quam. Nunc porta, est non posuere sagittis, neque nunc pellentesque diam, a iaculis lacus urna vitae purus. In non dui vel est tempor faucibus. Aliquam erat volutpat. Quisque vel est vitae nibh laoreet auctor. In nec libero dui. Nulla ullamcorper, dolor nec accumsan viverra, libero eros rutrum metus, vel lacinia magna odio non nunc. Praesent semper felis eu rhoncus aliquam. Donec at quam ac libero vestibulum pretium. Nunc faucibus vel arcu in malesuada. Aenean at velit odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas commodo erat eget molestie sollicitudin. Donec imperdiet, ex sed blandit dictum, ipsum metus ultrices arcu, vitae euismod nisl sapien vitae tortor.</p>
+							</header><p><h2 class="major">Development Process</h2>
+  
+    <li>
+      <strong>Research and Conceptualization:</strong><br>
+The development of the bio-inspired manta ray model began with an in-depth research phase, where our group explored various marine creatures for inspiration. After multiple brainstorming sessions, we finalised the idea of designing a robotic manta ray because of its unique structure, elegant body design, and fluid fin movement.
 
-							<p>Vivamus nec odio ac ligula congue feugiat at vitae leo. Aenean sem justo, finibus sed dui eu, accumsan facilisis dolor. Fusce quis dui eget odio iaculis aliquam vel sed velit. Nulla pellentesque posuere semper. Nulla eu sagittis lorem, a auctor nulla. Sed ac condimentum orci, ac varius ante. Nunc blandit quam sit amet sollicitudin sodales.</p>
+We studied the biology, structure, and natural movement patterns of real manta rays, focusing on their body proportions, fin dynamics, and swimming style. This research gave us an understanding of how manta rays glide smoothly in water using their large, flexible pectoral fins.
+We created multiple hand sketches and rough design ideas to visualise the overall shape of the manta ray and identify the possible articulation points for fin movement.    </li>
+	  
+    <li>
+      <strong>3D Scanning and Reference Collection:</strong><br>
+To make the design more accurate and realistic, we used 3D scanning hardware and software available in the university facilities. 
+The main purpose of using 3D scanning was to capture the fine surface details, skin textures, and curves of existing fish models. This data was extremely useful in replicating the natural skin pattern and the organic flow of the manta ray’s body.
 
-							<p>Vivamus ultricies mollis mauris quis molestie. Quisque eu mi velit. In et cursus nibh. Donec facilisis, orci sed mollis hendrerit, nunc risus mattis odio, eget efficitur nisl orci a lectus. Aenean finibus neque convallis orci sollicitudin tincidunt. Vivamus lacinia facilisis diam, quis facilisis nisi luctus nec. Aliquam ac molestie enim, ut ultrices elit. Fusce laoreet vulputate risus in tincidunt. Sed commodo mollis maximus. Nullam varius laoreet nibh sit amet facilisis. Donec ac odio vehicula, consequat elit et, sodales justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam ac auctor mauris, in hendrerit libero. </p>
+Along with 3D scanning, we referred to multiple reference images and 3D scanned data available online to study the anatomical structure of manta rays. 
+The scanned texture details were later integrated into the digital design to give a realistic finish to the final 3D printed model.    </li>
+	  
+    <li>
+      <strong>CAD Design and Modeling:</strong><br>
+Once the research and data collection phase was completed, we moved on to the digital modelling process. Onshape, a cloud-based 3D modelling software, was used to create the manta ray model. The entire model was designed in multiple segments to ensure that the fins could move naturally when assembled.
+
+Instead of traditional CAD software like Fusion 360, Onshape provided flexibility in creating and refining the model collaboratively. 
+We focused on designing a hollow main body for lightweight construction, with segmented left and right pectoral fins that could simulate the flapping motion of a real manta ray.
+Special attention was given to designing the fin sections, where flexible movement was required. 
+The model was designed in such a way that it allowed for easy attachment of servo motors and the integration of fishing thread to control fin movement.    </li>
+   
+	  <li>
+      <strong>Simulation and Motion Planning:</strong><br>
+Motion capture hardware and software were utilised to study how manta rays move their fins while swimming. 
+This technology helped us observe the fin motion pattern and inspired us to replicate a similar motion in our model.
+
+We carefully studied the range of movement, flexibility, and direction of fin flaps to guide our design choices. 
+These insights were essential for planning how the fins of our robotic manta ray would move using fishing thread connected to servo motors.    </li>
+   
+	  <li>
+      <strong>Material Selection:</strong><br>
+For 3D printing the model, Poly-lactic Acid (PLA) filament was selected as the primary material. 
+PLA was ideal for this project because of its strength, durability, and ease of printing.
+
+For connecting and assembling different parts like fins and body, we used pins. 
+To enable fin movement, fishing thread was used to link the fins with servo motors, allowing for controlled and flexible articulation. 
+The use of fishing thread provided lightweight yet strong connectivity between moving parts.
+Basic electronics like servo motors were included to power the fin movement, making the model function more like a robotic concept.    </li>
+   
+	  <li>
+      <strong>3D Printing:</strong><br>
+		  <p>
+After finalising the design in Onshape, the model was divided into separate parts suitable for 3D printing. The main 3D printed parts included:</p>
+  <ul>
+<li> The hollow main body shell
+  <li> Segmented left and right pectoral fins
+  <li> Tail and caudal fin with optional motion features
+  <li> Internal mounting structures to support servo motors and connections
+	  </ul>
+We used FDM (Fused Deposition Modelling) technology for printing all parts using PLA filament. 
+The slicing of each part was done using Cura software, where settings were optimised based on the size, complexity, and orientation of each part to avoid print failures.    </li>
+    
+	  <li>
+      <strong>Post-Processing and Assembly:</strong><br>
+Once the 3D printing process was completed, the next phase involved post-processing the parts to ensure proper fit and finish. 
+All support materials were carefully removed, and the printed surfaces were cleaned and smoothed using sanding tools.
+
+The parts were then assembled manually. Pins were used to connect the fins to the main body, and fishing thread was attached from the servo motors to specific fin sections to enable controlled movement.
+Manual adjustments and testing were done to ensure that the fins moved smoothly without friction or resistance.
+    </li>
+	  	  <li>
+      <strong>Resin production and Surface Finishing</strong><br>
+To further improve the appearance and durability of the model, resin coating techniques were applied to certain parts of the manta ray. 
+Resin production helped in achieving a better surface finish, protecting the model, and adding a slight gloss to resemble the texture of real marine creatures.
+    </li>
+	  
+    <li>
+      <strong>Final Testing and Evaluation:</strong><br>
+The final assembled manta ray model was tested for its visual accuracy, structural integrity, and fin movement functionality. 
+	    We powered the servo motors to test the fin articulation using the fishing thread mechanism.
+
+The model successfully demonstrated lifelike fin motion, closely mimicking the gentle and flowing movements of a real manta ray. 
+	    Photographs and videos were taken to document the working prototype and development process.
+    </li>
+	      <li>
+      <strong>Final Presentation:</strong><br>
+The completed manta ray model was presented as a fully 3D printed, bio-inspired robotic prototype that combines organic design with mechanical movement. 
+The project highlighted how engineering and biomimicry can work together using modern manufacturing tools like 3D scanning, motion capture, Onshape modelling, and 3D printing.
+
+This development process not only created a visually accurate model but also showcased potential applications in underwater robotics, research, and educational demonstrations.
+    </li>
+	   </ol>     </p>
 						</div>
 					</div>
 				</div>
